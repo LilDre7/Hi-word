@@ -1,0 +1,185 @@
+#Titulo { 
+    color: tomato;
+}
+p.texto{ 
+    color:purple;
+}
+p.especial {  
+    color: mediumblue;
+} /*Esto es un comentario*/ 
+div p { 
+    color: brown;
+}
+
+div h2, div h3 { 
+    color:blue
+}
+
+*{
+    font-size: 20px;
+    /*color:black; /*Esto es un comentario*/ 
+}
+
+/*
+.color{ 
+    color:#fff000;
+}
+.color{ 
+    color: rgb( 0 , 255 , 0 );
+}
+*/ 
+
+.color { 
+    /* border: 5px cornsilk inset;*/
+     /* RAYAS DE BORDES = CUADRADOS
+
+    dotted 
+    dashed
+    solid 
+    double
+    groove
+    ridge 
+    inset 
+    outset 
+    none
+    hidden 
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1rem;
+}
+#fondo { 
+    background-color: rgb(255, 0, 0);
+    opacity: 0.3;
+    background-image: url("200.jpg");
+    height: 500px;
+    /* posiciones las cuales puden estar las imagenes = TOP, CENTER, BOTTOM. */
+    background: rebeccapurple url("200.jpg") repeat-y center bottom / 100px
+}
+
+  .margen{
+    background-color:rosybrown;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 400px 400px ;
+    width: 100px 200px;
+    overflow:scroll; 
+    outline: 4px solid rebeccapurple;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-decoration: line-through;
+    text-shadow: 9px 6px 1px royalblue;
+}
+a:link{ 
+    color: cyan;
+    border: 5px;
+}
+
+a:visited{ 
+    color:chocolate
+}
+
+a:active {
+    color:lightseagreen
+}
+
+ul { 
+    background-color: blueviolet;
+    color: black;
+    list-style: none;
+    list-style-type:lower-greek;
+    padding-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-position: inside;
+}
+
+table{ 
+    width: 600px;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+th,td {
+    border: solid;
+    color: darkgreen;
+    padding: 5px;
+
+}
+
+th { 
+    background-color: tomato;
+    color: black;
+    text-align:left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover { 
+    background-color: #aaaa; 
+    cursor: pointer;
+}
+
+span { 
+    display: block;
+    max-width: 800px;
+    background-color: red;
+}
+
+.inline { 
+    display: inline;
+
+}
+
+#position{
+
+    background-color: black;
+    position: sticky;
+    left: 20px;
+    /*top: 20px;*/
+}
+
+.left { 
+    float: left;
+    width: 200px ;
+    height: 200px;
+
+}
+
+.right { 
+    float: right;
+}
+
+.container{ 
+    height: 200px;
+}
+
+.column {
+    margin: 0; 
+    padding: 10px 15px;
+    width: 33.3%;
+
+}
+
+.inline-block { 
+    display: inline-block;
+    height: 55px;
+    background-color: blue;
+
+}
+
+.center {
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
